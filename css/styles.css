@@ -192,7 +192,7 @@ img, svg { display: block; max-width: 100%; }
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 220px;
+  min-height: 390px;
   position: relative;
   overflow: hidden;
 }
