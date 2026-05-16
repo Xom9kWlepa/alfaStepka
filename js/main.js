@@ -32,12 +32,4 @@ document.querySelectorAll('.toggle').forEach(group => {
   });
 });
 
-document.querySelectorAll('.phone__top').forEach(group => {
-  const chips = group.querySelectorAll('.phone__chip');
-  chips.forEach(chip => {
-    chip.addEventListener('click', () => {
-      chips.forEach(c => c.classList.remove('is-active'));
-      chip.classList.add('is-active');
-    });
-  });
-});
+
