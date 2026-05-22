@@ -584,7 +584,7 @@ body {
 .ben-col .ben { flex: 1; min-height: 220px; }
 
 .sim-row {
-  background: var(--white);
+  background: var(--bg);
   border-radius: var(--r);
   padding: 18px 28px;
   display: flex;
