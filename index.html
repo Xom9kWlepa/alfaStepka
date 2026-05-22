@@ -1,263 +1,345 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Альфа-Банк — главная</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Альфа-Банк</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container header__inner">
-      </a>
-      <button class="header__burger" aria-label="Меню" id="burger">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="header__nav" id="nav">
-        <a href="#" class="header__nav-link is-active">Частным лицам</a>
-        <a href="#" class="header__nav-link">Малому бизнесу и ИП</a>
-        <a href="#" class="header__nav-link">Среднему и крупному бизнесу</a>
-      </nav>
-      <div class="header__actions">
-        <button class="btn btn--ghost">Стать клиентом</button>
-        <button class="btn btn--primary">Войти</button>
-      </div>
-    </div>
-  </header>
 
   <section class="hero">
     <div class="container">
-      <div class="hero__grid">
-        <a href="#" class="card hero__deposit">
-          <div class="hero__deposit-text">
-            <h2 class="hero__title">Альфа-Вклад</h2>
-            <p class="hero__sub">Успейте получить 22% годовых —<br/>только до 31 мая</p>
-            <span class="btn btn--primary hero__btn">Открыть вклад</span>
-          </div>
-        </a>
-        <a href="#" class="card hero__credit">
-          <h3 class="card__title">Кредитная карта</h3>
-        </a>
-        <a href="#" class="card hero__invest">
-          <h3 class="card__title">Инвестируйте<br/>и зарабатывайте</h3>
-        </a>
-        <a href="#" class="card hero__cash">
-          <h3 class="card__title-sm">Кредит наличными</h3>
-        </a>
-        <a href="#" class="card hero__free">
-          <h3 class="card__title-sm">Бесплатная<br/>Альфа-Карта</h3>
-        </a>
-      </div>
-    </div>
-  </section>
 
-  <section class="section section--products">
-    <div class="container">
-      <div class="section__head">
-        <h2 class="section__title">Выбирайте лучшее</h2>
-        <div class="tabs">
-          <button class="tabs__item is-active">Для всех</button>
-          <button class="tabs__item">Малому бизнесу</button>
-          <button class="tabs__item">Крупному бизнесу</button>
-        </div>
-      </div>
-      <div class="products">
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Дебетовые карты</h3>
-            <p class="product__desc">Суперкэшбэк до 100%</p>
-          </div>
-        </a>
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Кредитные карты</h3>
-            <p class="product__desc">Объединение долгов</p>
-          </div>
-        </a>
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Кредиты</h3>
-            <p class="product__desc">Оформление онлайн</p>
-          </div>
-        </a>
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Накопления</h3>
-            <p class="product__desc">Доход с первого месяца</p>
-          </div>
-        </a>
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Инвестиции</h3>
-            <p class="product__desc">Начните зарабатывать</p>
-          </div>
-        </a>
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Ипотека</h3>
-            <p class="product__desc">Одобрим за 60 секунд</p>
-          </div>
-        </a>
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Alfa Only</h3>
-            <p class="product__desc">Ваш премиальный сервис</p>
-          </div>
-        </a>
-        <a href="#" class="product">
-          <div class="product__text">
-            <h3 class="product__title">Для детей и семьи</h3>
-            <p class="product__desc">Карта с кэшбэком</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
+      <header class="header">
+        <a href="#" class="logo">А</a>
 
-  <section class="section section--cashback">
-    <div class="container">
-      <div class="cashback">
-        <div class="cashback__text">
-          <h2 class="cashback__title">Наши клиенты получают<br/>повышенный кэшбэк<br/>у партнёров</h2>
-          <p class="cashback__desc">Каждый месяц мы собираем для вас выгодные предложения партнёров — скидки на продукты, одежду, технику, развлечения, образование и не только. Станьте клиентом и заполучите кэшбэк.</p>
-          <a href="#" class="btn btn--primary cashback__btn">Стать клиентом</a>
-        </div>
-        <div class="cashback__phone-wrap">
-        </div>
-      </div>
-    </div>
-  </section>
+        <nav class="nav">
+          <a href="#">Частным лицам</a>
+          <a href="#">Малому бизнесу и ИП</a>
+          <a href="#">Среднему и крупному бизнесу</a>
+          <button class="search" aria-label="Поиск">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <circle cx="11" cy="11" r="7"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+          </button>
+        </nav>
 
-  <section class="section section--services">
-    <div class="container">
-      <h2 class="section__title">Сервисы</h2>
-      <div class="services">
-        <div class="service service--currency">
-          <div class="service__head">
-            <h3 class="service__title">Курсы валют</h3>
-            <div class="toggle">
-              <button class="toggle__item is-active">Наличные</button>
-              <button class="toggle__item">Безналичные</button>
-            </div>
-          </div>
-          <table class="rates">
-            <thead>
-              <tr><th>валюта</th><th>продать</th><th>купить</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td></span><span><b>USD</b><small>Доллар США</small></span></td>
-                <td>76,1</td><td>74,9</td>
-              </tr>
-              <tr>
-                <td></span><span><b>EUR</b><small>Евро</small></span></td>
-                <td>91</td><td>10,6</td>
-              </tr>
-              <tr>
-                <td></span><span><b>CNY</b><small>Китайский юань (CNY)</small></span></td>
-                <td>11,1</td><td>11,4b</td>
-              </tr>
-            </tbody>
-          </table>
-          <a href="#" class="service__link">Больше валют →</a>
-          <p class="service__note">Информация о курсах обмена иностранных валют, размещенная на сайте, не является публичной офертой. Точные значения курсов вы можете узнать в Альфа-Онлайн. Если курсы отличаются от указанных в Альфа-Мобайл, обращайтесь в офис.</p>
+        <div class="head-btns">
+          <button class="btn btn-ghost">Стать клиентом</button>
+          <button class="btn btn-red">Войти</button>
         </div>
-        <a href="#" class="service service--row">
-          <div>
-            <h4 class="service__title-sm">Отделения банка и банкоматы</h4>
-            <p class="service__desc">Найдите ближайшие к вам отделения и банкоматы</p>
-          </div>
-        </a>
-        <a href="#" class="service service--row">
-          <div>
-            <h4 class="service__title-sm">Платежи и переводы</h4>
-            <p class="service__desc">Оплачивайте и переводите деньги без комиссии</p>
-          </div>
-        </a>
-        <a href="#" class="service service--row">
-          <div>
-            <h4 class="service__title-sm">Купить или продать недвижимость</h4>
-            <p class="service__desc">Сделка под ключ, быстро и безопасно</p>
-          </div>
-        </a>
-        <a href="#" class="service service--support">
-          <div>
-            <h4 class="service__title-sm">Поддержка</h4>
-            <p class="service__desc">Любой вопрос решит наш робот или оператор</p>
-          </div>
-        </a>
-        <a href="#" class="service service--samoz">
-          <div>
-            <h4 class="service__title-sm">Оформить самозанятость</h4>
-            <p class="service__desc service__desc--light">Доходы, налоги и выгоды в одном приложении</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
 
-  <section class="section section--offers">
-    <div class="container">
-      <h2 class="section__title">Пользуйтесь выгодными<br/>предложениями в наших сервисах</h2>
-      <div class="tabs tabs--offers">
-        <button class="tabs__item is-active">
-          <span class="tabs__dot tabs__dot--red"></span>Альфа-Мобайл
+        <button class="burger" aria-label="Меню">
+          <span></span><span></span><span></span>
         </button>
-        <button class="tabs__item"><span class="tabs__dot tabs__dot--orange"></span>Альфа-Тревел</button>
-        <button class="tabs__item"><span class="tabs__dot tabs__dot--green"></span>Афиша</button>
-        <button class="tabs__item"><span class="tabs__dot tabs__dot--orange"></span>Заправки</button>
-        <button class="tabs__item"><span class="tabs__dot tabs__dot--green"></span>Подарки</button>
-        <button class="tabs__item"><span class="tabs__dot tabs__dot--red"></span>Страхование</button>
-      </div>
-      <div class="offers">
-        <a href="#" class="offer offer--sim">
-          <div class="offer__text">
-            <h3 class="offer__title">Альфа-выгодная связь</h3>
-            <p class="offer__desc">12 ГБ, 500 мин — за 350₽</p>
-          </div>
-        </a>
-        <a href="#" class="offer offer--internet">
-          <div class="offer__text">
-            <h3 class="offer__title">Безлимитный интернет</h3>
-            <p class="offer__desc">Бесплатно и навсегда с тарифом «Лайт»</p>
-          </div>
-        </a>
-        <a href="#" class="offer offer--cta">
-          <span>Оформить сим</span>
-          <span class="offer__cta-arrow" aria-hidden="true">→</span>
-        </a>
+      </header>
+
+      <div class="hero-grid">
+
+        <article class="card big">
+          <h2 class="card-title big-title">Альфа-Вклад</h2>
+          <p class="card-desc">Успейте открыть вклад под выгодный процент до конца месяца</p>
+          <button class="btn btn-red card-btn">Открыть вклад</button>
+          <img src="img/1.png" alt="" class="card-img img-deposit">
+        </article>
+
+        <article class="card red">
+          <h3 class="card-title">Кредитная карта</h3>
+          <img src="img/2.png" alt="" class="card-img">
+        </article>
+
+        <article class="card red invest">
+          <h3 class="card-title">Инвестируйте<br>и зарабатывайте</h3>
+          <img src="img/3.png" alt="" class="card-img">
+        </article>
+
+        <article class="card lavender">
+          <h3 class="card-title">Кредит наличными</h3>
+          <img src="img/4.png" alt="" class="card-img side-img">
+        </article>
+
+        <article class="card peach">
+          <h3 class="card-title">Бесплатная<br>Альфа-Карта</h3>
+          <img src="img/5.png" alt="" class="card-img side-img">
+        </article>
+
       </div>
     </div>
   </section>
 
-  <section class="section section--about">
+  <section class="section">
     <div class="container">
-      <div class="section__head">
-        <h2 class="section__title">О банке</h2>
+
+      <div class="sec-head">
+        <h2 class="title">Выбирайте лучшее</h2>
         <div class="tabs">
-          <button class="tabs__item is-active">Достижения</button>
-          <button class="tabs__item">Работа в Альфе</button>
+          <span class="tab-pill"></span>
+          <button class="tab is-active">Для всех</button>
+          <button class="tab">Малому бизнесу</button>
+          <button class="tab">Крупному бизнесу</button>
         </div>
       </div>
-      <div class="about">
-        <a href="#" class="about__card about__card--employer">
-          <h3 class="about__title">Альфа-Банк — лучший работодатель России</h3>
-          <p class="about__desc about__desc--light">Третий год подряд по версии HeadHunter</p>
-        </a>
-        <a href="#" class="about__card about__card--biggest">
-          <h3 class="about__title">Крупнейший частный банк</h3>
-          <ul class="about__stats">
-            <li><b>19 миллионов</b><span>клиентов на обслуживании</span></li>
-            <li><b>800+</b><span>офисов и доставка</span></li>
-            <li><b>в 2500</b><span>городов</span></li>
-          </ul>
-        </a>
-        <a href="#" class="about__card about__card--reviews">
-          <h3 class="about__title">Отзывы</h3>
-          <p class="about__desc">Мы ценим время клиентов и каждый день стремимся стать лучше</p>
-        </a>
+
+      <div class="prod-grid">
+        <article class="prod">
+          <h3 class="prod-title">Дебетовые карты</h3>
+          <p class="prod-desc">Суперкэшбэк до 100%</p>
+          <img src="img/6.png" alt="" class="prod-img">
+        </article>
+
+        <article class="prod">
+          <h3 class="prod-title">Кредитные карты</h3>
+          <p class="prod-desc">Обслуживание 0 ₽</p>
+          <img src="img/7.png" alt="" class="prod-img">
+        </article>
+
+        <article class="prod">
+          <h3 class="prod-title">Кредиты</h3>
+          <p class="prod-desc">Оформление онлайн</p>
+          <img src="img/8.png" alt="" class="prod-img">
+        </article>
+
+        <article class="prod">
+          <h3 class="prod-title">Накопления</h3>
+          <p class="prod-desc">Доход с первого месяца</p>
+          <img src="img/9.png" alt="" class="prod-img">
+        </article>
+
+        <article class="prod">
+          <h3 class="prod-title">Инвестиции</h3>
+          <p class="prod-desc">Начните зарабатывать</p>
+          <img src="img/10.png" alt="" class="prod-img">
+        </article>
+
+        <article class="prod">
+          <h3 class="prod-title">Ипотека</h3>
+          <p class="prod-desc">Одобрим за 60 секунд</p>
+          <img src="img/11.png" alt="" class="prod-img">
+        </article>
+
+        <article class="prod">
+          <h3 class="prod-title">Alfa Only</h3>
+          <p class="prod-desc">Ваш премиальный сервис</p>
+          <img src="img/12.png" alt="" class="prod-img">
+        </article>
+
+        <article class="prod">
+          <h3 class="prod-title">Для детей и семьи</h3>
+          <p class="prod-desc">Карты с кэшбэком</p>
+          <img src="img/13.png" alt="" class="prod-img">
+        </article>
       </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cb-card">
+
+        <div class="cb-text">
+          <h2 class="title">Наши клиенты получают повышенный кэшбэк у партнёров</h2>
+          <p class="cb-desc">
+            Каждый месяц мы собираем для вас выгодные предложения от партнёров: бонусы на еду, одежду, технику, развлечения и многое другое. Становитесь клиентом и получайте больше.
+          </p>
+          <button class="btn btn-red">Стать клиентом</button>
+        </div>
+
+        <div class="cb-media">
+          <div class="cb-badge">
+            <span class="cb-badge-top">Кэшбэк<br>и сервисы</span>
+          </div>
+          <div class="cb-balance">
+            <span class="cb-bal-label">Баланс</span>
+            <b class="cb-bal-sum">5 678 ₽</b>
+          </div>
+          <img src="img/14.png" alt="" class="cb-img">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2 class="title">Сервисы</h2>
+
+      <div class="serv-grid">
+
+        <div class="serv-col">
+
+          <div class="cur">
+            <div class="cur-head">
+              <h3 class="serv-title">Курсы валют</h3>
+              <button class="cur-select">Наличные ▾</button>
+            </div>
+
+            <div class="cur-row cur-row-head">
+              <span>валюта</span>
+              <span>продать</span>
+              <span>купить</span>
+            </div>
+
+            <div class="cur-row">
+              <span><b>USD</b><br><small>Доллар США</small></span>
+              <span>75,1</span>
+              <span>76,9</span>
+            </div>
+            <div class="cur-row">
+              <span><b>EUR</b><br><small>Евро</small></span>
+              <span>91</span>
+              <span>92,6</span>
+            </div>
+            <div class="cur-row">
+              <span><b>CNY</b><br><small>Китайский юань</small></span>
+              <span>11,5</span>
+              <span>11,45</span>
+            </div>
+
+            <a href="#" class="cur-more">Больше валют ›</a>
+            <p class="cur-note">
+              Курсы носят справочный характер. Точную информацию по конкретной сделке уточняйте у менеджера банка.
+            </p>
+          </div>
+
+          <article class="serv">
+            <div>
+              <h3 class="serv-title">Поддержка</h3>
+              <p class="serv-desc">Любой вопрос решим по телефону или в чате</p>
+            </div>
+            <img src="img/15.png" alt="" class="serv-img">
+          </article>
+
+        </div>
+
+        <div class="serv-col">
+
+          <article class="serv">
+            <div>
+              <h3 class="serv-title">Отделения банка и банкоматы</h3>
+              <p class="serv-desc">Найдите ближайшее отделение и банкомат</p>
+            </div>
+            <img src="img/16.png" alt="" class="serv-img">
+          </article>
+
+          <article class="serv">
+            <div>
+              <h3 class="serv-title">Платежи и переводы</h3>
+              <p class="serv-desc">Оплачивайте и переводите без комиссии</p>
+            </div>
+            <img src="img/17.png" alt="" class="serv-img">
+          </article>
+
+          <article class="serv">
+            <div>
+              <h3 class="serv-title">Купить или продать недвижимость</h3>
+              <p class="serv-desc">Сделки под ключ — быстро и безопасно</p>
+            </div>
+            <img src="img/18.png" alt="" class="serv-img">
+          </article>
+
+          <article class="serv dark">
+            <div>
+              <h3 class="serv-title">Оформить самозанятость</h3>
+              <p class="serv-desc">Доходы, налоги и выплаты в одном приложении</p>
+            </div>
+            <img src="img/19.png" alt="" class="serv-img">
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2 class="title">Пользуйтесь выгодными<br>предложениями в наших сервисах</h2>
+      <div class="tabs ben-tabs">
+        <span class="tab-pill"></span>
+        <button class="tab is-active">
+          <span class="dot"></span> Альфа-Мобайл
+        </button>
+        <button class="tab">Альфа-Тревел</button>
+        <button class="tab">Афиша</button>
+        <button class="tab">Заправки</button>
+        <button class="tab">Подели</button>
+        <button class="tab">Страхование</button>
+      </div>
+
+      <div class="ben-grid">
+
+        <article class="ben lavender">
+          <h3 class="ben-title">Альфа-<br>выгодная<br>связь</h3>
+          <p class="ben-desc">50 ГБ, 500 минут — от 500 ₽</p>
+          <img src="img/20.png" alt="" class="ben-img">
+        </article>
+
+        <div class="ben-col">
+
+          <article class="ben pink">
+            <h3 class="ben-title">Безлимитный интернет</h3>
+            <p class="ben-desc">Безлимитно и надолго с тарифом Лайк</p>
+            <img src="img/21.png" alt="" class="ben-img big-ben-img">
+          </article>
+
+          <a href="#" class="sim-row">
+            <span class="sim-title">Оформить сим</span>
+            <span class="sim-arrow">→</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="sec-head">
+        <h2 class="title">О банке</h2>
+        <div class="tabs">
+          <span class="tab-pill"></span>
+          <button class="tab is-active">Достижения</button>
+          <button class="tab">Работа в Альфе</button>
+        </div>
+      </div>
+
+      <div class="ab-grid">
+
+        <article class="ab dark big-ab">
+          <h3 class="ab-title">Альфа-Банк — лучший<br>работодатель России</h3>
+          <p class="ab-desc">Третий год подряд по версии HeadHunter</p>
+          <img src="img/22.png" alt="" class="ab-img big-ab-img">
+        </article>
+
+        <article class="ab">
+          <h3 class="ab-title">Крупнейший<br>частный банк</h3>
+          <ul class="ab-list">
+            <li>40 миллионов клиентов выбрали нас</li>
+            <li>800+ офисов и отделений<br>в 2 500 городах</li>
+          </ul>
+          <img src="img/23.png" alt="" class="ab-img">
+        </article>
+
+        <article class="ab">
+          <h3 class="ab-title">Отзывы</h3>
+          <p class="ab-desc">Мы ценим ваши комментарии о нашей работе. И каждый день становимся лучше.</p>
+          <img src="img/24.png" alt="" class="ab-img">
+        </article>
+
+      </div>
+
     </div>
   </section>
 

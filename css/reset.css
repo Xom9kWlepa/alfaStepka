@@ -1,0 +1,69 @@
+/* ===== СБРОС СТИЛЕЙ ===== */
+
+/* Убираем отступы и паддинги у всего */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Базовые настройки html и body */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Картинки делаем адаптивными */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Списки без маркеров */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Ссылки без подчёркивания */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Кнопки без стандартных стилей */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+/* Заголовки наследуют шрифт */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Инпуты наследуют шрифт */
+input,
+textarea,
+select {
+  font: inherit;
+}
